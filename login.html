@@ -19,5 +19,135 @@
           </ul>
         </nav>
       </header>
+      <main>
+        <section>
+          <table>
+            <caption>
+              Popular Food
+            </caption>
+            <thead>
+              <th>Row</th>
+              <th>Food Name</th>
+              <th>Price</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Pepperoni pizza</td>
+                <td>1090000R</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>American Pizza</td>
+                <td>2000000R</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Cheese Burger</td>
+                <td>980000R</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>French Friez</td>
+                <td>580000R</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Chicken Slider</td>
+                <td>420000R</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <div>
+            <form>
+              <fieldset>
+                <legend>Login</legend>
+                <label for="username1">Please enter your username:</label>
+                <input
+                  type="text"
+                  id="username1"
+                  placeholder="Username"
+                  required
+                />
+                <br /><br />
+                <label for="password">Please enter your password:</label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Your password"
+                  name="password"
+                  required
+                />
+                <br /><br />
+                <input type="submit" value="Login" />
+              </fieldset>
+            </form>
+          </div>
+          <br /><br /><br />
+          <div>
+            <form>
+              <fieldset>
+                <legend>sing up</legend>
+                <label for="username2">Please enter your username:</label>
+                <input
+                  type="text"
+                  id="username2"
+                  placeholder="Username"
+                  required
+                />
+                <br /><br />
+                <label for="password1">Please enter your password:</label>
+                <input
+                  type="password"
+                  id="password1"
+                  placeholder="Your password"
+                  required
+                />
+                <br /><br />
+                <label for="password2">Please enter your password again:</label>
+                <input
+                  type="password"
+                  id="password2"
+                  placeholder="Your password"
+                  required
+                />
+                <br /><br />
+                <label for="email">Please enter your email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  pattern="@gmail.com"
+                  placeholder="*******@gmail.com"
+                  required
+                />
+                <br /><br />
+                <label>What is your gender:</label>
+                <input type="radio" name="geneder" value="male" id="option-1" />
+                <label for="option-1">male</label>
+                <input type="radio" name="geneder" value="female" id="option-2" />
+                <label for="option-2">female</label>
+                <input type="radio" name="geneder" value="other" id="option-3" />
+                <label for="option-3">other</label>
+                <br /><br />
+                <input
+                  type="date"
+                  id="date"
+                  name="birth"
+                  value="2022/08/30"
+                  min="1900/01/01"
+                  max="2022/08/30"
+                  required
+                />
+                <label for="birth">Please enter your birthday:</label>
+                <br /><br />
+                <input type="submit" value="Sign Up" /><br /><br />
+              </fieldset>
+            </form>
+          </div>
+        </section>
+      </main>
+      <br />
 </body>
 </html>
