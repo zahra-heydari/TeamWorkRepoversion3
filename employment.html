@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employment</title>
+  </head>
+  <body>
+    <header>
+      <!-- logo -->
+      <img src="/images/resturant_logo.png" alt="Logo" />
+      <!--  nav bar -->
+      <nav>
+        <ul>
+          <li><a href="login.html">Login/Sign Up</a></li>
+          <li><a href="recipe.html">Recipe</a></li>
+          <li><a href="factor.html">Cart</a></li>
+          <li><a href="#AboutUS">About Us</a></li>
+          <li><a href="employment.html">Employment</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <table>
+          <caption>
+            Favorite Food
+          </caption>
+          <thead>
+            <th>Row</th>
+            <th>Food Name</th>
+            <th>Price</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>پاستا ژامیون</td>
+              <td>98,900</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>پیتزا پپرونی کوچک</td>
+              <td>75,900</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>همبرگر با سس پنیر</td>
+              <td>116,900</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <fieldset>
+          <legend>Employment form</legend>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="3 characters atleast"
+            minlength="3"
+            maxlength="10"
+            size="16"
+          />
+          <br />
+          <label for="start">Your Birthday:</label>
+          <input
+            type="date"
+            id="start"
+            name="birtday"
+            value="2018-07-22"
+            min="1900-01-01"
+            max="2018-12-31"
+          />
+          <br />
+          <label>What is your geneder?</label>
+          <input type="radio" name="geneder" value="male" id="option-1" />
+          <label for="option-1">male</label>
+          <input type="radio" name="geneder" value="female" id="option-2" />
+          <label for="option-2">female</label>
+          <input type="radio" name="geneder" value="other" id="option-3" />
+          <label for="option-3">other</label>
+          <br />
+          <label for="email">Please Enter your Email:</label>
+          <input type="email" id="email" placeholder="ex@example.com" />
+          <br />
+          <label>For which section would you like to join us?</label>
+          <label
+            ><input id="bar" type="radio" name="join" value="bar" checked /> Bar
+            Section</label
+          >
+          <label
+            ><input id="kitchen" type="radio" name="join" value="kitchen" />
+            Kitchen</label
+          >
+          <label
+            ><input
+              id="cashier"
+              type="radio"
+              name="join"
+              value="cashier"
+            />Cashier</label
+          >
+          <label
+            ><input
+              id="waiter-waitress"
+              type="radio"
+              name="join"
+              value="waiter-waitress"
+            />
+            Waiter/Waitress</label
+          >
+          <label
+            ><input
+              id="manager"
+              type="radio"
+              name="join"
+              value="manager"
+            />Manager</label
+          >
+          <label
+            ><input
+              id="accountants"
+              type="radio"
+              name="join"
+              value="accountants"
+            />Accountants</label
+          >
+          <br />
+          <label>How do you deal with a rude customer?</label>
+          <input
+            id="unlike"
+            type="checkbox"
+            name="personality"
+            value="unlike"
+            checked
+          />
+          <label for="unlike">Unlike him, I treat him respectfully</label>
+          <input
+            id="behaving-like-her/her"
+            type="checkbox"
+            name="personality"
+            value="behaving-like-her/her"
+          />
+          <label for="behaving-like-her/her">Behaving like her/her</label>
+          <input
+            id="indifferent"
+            type="checkbox"
+            name="personality"
+            value="indifferent"
+          />
+          <label for="indifferent">I remain indifferent towards them</label>
+          <br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <nav>
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="/images/telegram_icon.png" alt="telegram"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="/images/instagram_icon.jpg" alt="instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="/images/whatsApp_icon.jpg" alt="whatsApp"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/images/phone_icon.png " alt="phone" /></a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <br />
+      <section id="AboutUS">
+        <p>we are ghodrat bartar and you can access to us everytime you want</p>
+      </section>
+      <section>
+        <form>
+          <fieldset>
+            <legend>tell us your comment:</legend>
+            <label for="name">Please Enter Your Name:</label
+            ><input id="name" type="text" />
+            <br />
+            <label for="email">Please Enter Your Email:</label
+            ><input id="email" type="email" />
+            <br />
+            <label for="comment">Please Enter Your Comment:</label><br />
+            <textarea id="comment"></textarea>
+            <br />
+            <input type="submit" value="send" />
+          </fieldset>
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>
