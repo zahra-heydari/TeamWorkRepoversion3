@@ -29,9 +29,11 @@
             Favorite Food
           </caption>
           <thead>
-            <th>Row</th>
-            <th>Food Name</th>
-            <th>Price</th>
+            <tr>
+              <th>Row</th>
+              <th>Food Name</th>
+              <th>Price</th>
+            </tr>
           </thead>
           <tbody>
             <tr>
@@ -50,111 +52,114 @@
               <td>116,900</td>
             </tr>
           </tbody>
+          <tfoot></tfoot>
         </table>
       </section>
       <section>
-        <fieldset>
-          <legend>Employment form</legend>
-          <label for="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            placeholder="3 characters atleast"
-            minlength="3"
-            maxlength="10"
-            size="16"
-          />
-          <br />
-          <label for="start">Your Birthday:</label>
-          <input
-            type="date"
-            id="start"
-            name="birtday"
-            value="2018-07-22"
-            min="1900-01-01"
-            max="2018-12-31"
-          />
-          <br />
-          <label>What is your geneder?</label>
-          <input type="radio" name="geneder" value="male" id="option-1" />
-          <label for="option-1">male</label>
-          <input type="radio" name="geneder" value="female" id="option-2" />
-          <label for="option-2">female</label>
-          <input type="radio" name="geneder" value="other" id="option-3" />
-          <label for="option-3">other</label>
-          <br />
-          <label for="email">Please Enter your Email:</label>
-          <input type="email" id="email" placeholder="ex@example.com" />
-          <br />
-          <label>For which section would you like to join us?</label>
-          <label
-            ><input id="bar" type="radio" name="join" value="bar" checked /> Bar
-            Section</label
-          >
-          <label
-            ><input id="kitchen" type="radio" name="join" value="kitchen" />
-            Kitchen</label
-          >
-          <label
-            ><input
-              id="cashier"
-              type="radio"
-              name="join"
-              value="cashier"
-            />Cashier</label
-          >
-          <label
-            ><input
-              id="waiter-waitress"
-              type="radio"
-              name="join"
-              value="waiter-waitress"
+        <form>
+          <fieldset>
+            <legend>Employment form</legend>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="3 characters atleast"
+              minlength="3"
+              maxlength="10"
+              size="16"
             />
-            Waiter/Waitress</label
-          >
-          <label
-            ><input
-              id="manager"
-              type="radio"
-              name="join"
-              value="manager"
-            />Manager</label
-          >
-          <label
-            ><input
-              id="accountants"
-              type="radio"
-              name="join"
-              value="accountants"
-            />Accountants</label
-          >
-          <br />
-          <label>How do you deal with a rude customer?</label>
-          <input
-            id="unlike"
-            type="checkbox"
-            name="personality"
-            value="unlike"
-            checked
-          />
-          <label for="unlike">Unlike him, I treat him respectfully</label>
-          <input
-            id="behaving-like-her/her"
-            type="checkbox"
-            name="personality"
-            value="behaving-like-her/her"
-          />
-          <label for="behaving-like-her/her">Behaving like her/her</label>
-          <input
-            id="indifferent"
-            type="checkbox"
-            name="personality"
-            value="indifferent"
-          />
-          <label for="indifferent">I remain indifferent towards them</label>
-          <br />
-          <input type="submit" value="Submit" />
-        </fieldset>
+            <br />
+            <label for="start">Your Birthday:</label>
+            <input
+              type="date"
+              id="start"
+              name="birtday"
+              value="2018-07-22"
+              min="1900-01-01"
+              max="2018-12-31"
+            />
+            <br />
+            <label>What is your geneder?</label>
+            <input type="radio" name="geneder" value="male" id="option-1" />
+            <label for="option-1">male</label>
+            <input type="radio" name="geneder" value="female" id="option-2" />
+            <label for="option-2">female</label>
+            <input type="radio" name="geneder" value="other" id="option-3" />
+            <label for="option-3">other</label>
+            <br />
+            <label for="email">Please Enter your Email:</label>
+            <input type="email" id="email" placeholder="ex@example.com" />
+            <br />
+            <label>For which section would you like to join us?</label>
+            <label
+              ><input id="bar" type="radio" name="join" value="bar" checked />
+              Bar Section</label
+            >
+            <label
+              ><input id="kitchen" type="radio" name="join" value="kitchen" />
+              Kitchen</label
+            >
+            <label
+              ><input
+                id="cashier"
+                type="radio"
+                name="join"
+                value="cashier"
+              />Cashier</label
+            >
+            <label
+              ><input
+                id="waiter-waitress"
+                type="radio"
+                name="join"
+                value="waiter-waitress"
+              />
+              Waiter/Waitress</label
+            >
+            <label
+              ><input
+                id="manager"
+                type="radio"
+                name="join"
+                value="manager"
+              />Manager</label
+            >
+            <label
+              ><input
+                id="accountants"
+                type="radio"
+                name="join"
+                value="accountants"
+              />Accountants</label
+            >
+            <br />
+            <label>How do you deal with a rude customer?</label>
+            <input
+              id="unlike"
+              type="checkbox"
+              name="personality"
+              value="unlike"
+              checked
+            />
+            <label for="unlike">Unlike him, I treat him respectfully</label>
+            <input
+              id="behaving-like-her/her"
+              type="checkbox"
+              name="personality"
+              value="behaving-like-her/her"
+            />
+            <label for="behaving-like-her/her">Behaving like her/her</label>
+            <input
+              id="indifferent"
+              type="checkbox"
+              name="personality"
+              value="indifferent"
+            />
+            <label for="indifferent">I remain indifferent towards them</label>
+            <br />
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
       </section>
     </main>
     <footer>
@@ -190,11 +195,11 @@
         <form>
           <fieldset>
             <legend>tell us your comment:</legend>
-            <label for="name">Please Enter Your Name:</label
-            ><input id="name" type="text" />
+            <label for="name1">Please Enter Your Name:</label
+            ><input id="name1" type="text" />
             <br />
-            <label for="email">Please Enter Your Email:</label
-            ><input id="email" type="email" />
+            <label for="email1">Please Enter Your Email:</label
+            ><input id="email1" type="email" />
             <br />
             <label for="comment">Please Enter Your Comment:</label><br />
             <textarea id="comment"></textarea>
